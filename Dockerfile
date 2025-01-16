@@ -24,6 +24,7 @@ RUN sed -i '/stretch-updates/d' /etc/apt/sources.list && \
   nginx \
   nano \
   cron \
+  git \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
   #gcc \
